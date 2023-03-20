@@ -1,0 +1,81 @@
+body{
+    margin-top: 60px;
+    background: #282828;
+    background: linear-gradient(-55deg, #a85339, #329bf6, #f55d8b, #23d5ab);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    margin-bottom: 10%;
+}
+@keyframes Gradient{
+    0%{
+        background-position: 10% 50%
+    }
+    50%{
+        background-position: 100% 50%
+    }
+    100%{
+        background-position: 0% 50%
+    }
+}
+div{
+    text-align: center;
+    font-family: sans-serif;
+}
+h2{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.icon{
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 30px;
+    padding: 15px 17px;
+    color: white;
+    border: 1 px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    transition: .5s;
+    box-shadow: 0 0 2px #fff;
+
+}
+.social-icon{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-53%, -50%); 
+}
+.img{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.work{
+    text-align: center;
+}
+.btn{
+    background-color: white;
+    padding: 16px 20px;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.btn:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    color: white
+}
+hr{
+    height: 2px;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: black
+}
+a:link{
+    text-decoration: none;;
+}
